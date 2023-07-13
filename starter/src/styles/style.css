@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  color: SteelBlue;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+.image-item {
+  height: 40vh;
+  overflow: hidden;
+  width: 250px;
+  margin: 30px 20px 10px 10px;
+}
+
+img {
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+img:hover {
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0 0 20px;
+}
+
+.info-name {
+  font-size: 1.2rem;
+  text-align: center;
+  color: SteelBlue;
+}
